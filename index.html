@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nations Hangman</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Outline|Overlock+SC" rel="stylesheet">
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body onload="playGame()">
+	<audio autoplay="autoplay" loop="loop">
+		<source src="assets/images/daftAudio.mp3" type="audio/mp3">
+	</audio>
+	<h1>Nations Hangman!</h1>
+	<h4>(Careful, they're tough to guess!)</h4>
+	<section id="theGame">
+		<!--static html in case javascript isn't working.
+		Won't display the blank spaces. -->
+		<h2>Press any key to get started!</h2>
+		<p id="wins">Wins: 0</p>
+		<p id="losses">Losses: 0</p>
+		<p id="letters">Letters guessed:</p>
+		<p id="remaining">Remaining guesses: 6</p>
+	</section>
+
+</body>
+
+</html>

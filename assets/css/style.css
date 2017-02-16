@@ -1,0 +1,46 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	background-image: url(
+		"http://hd-wall-papers.com/images/wallpapers/world-wallpaper/world-wallpaper-9.jpg"
+		);
+	background-position: 60% 30%;
+	background-size: 120vw 120vh;
+}
+
+h1 {
+	font-family: 'Bungee Outline', cursive;
+	text-align: center;
+	width: 100vw;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 35px;
+	color: #7FFF00;
+}
+
+h4 {
+	font-family: 'Overlock SC', cursive;
+	text-align: center;
+	color: yellow;
+	margin-top: -15px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+#theGame {
+	font-family: 'Overlock SC', cursive;
+	border: 3px solid #7FFF00;
+	text-align: center;
+	font-size: 26px;
+	width: 40vw;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 70vh;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	background-color: #ffffff;
+}
